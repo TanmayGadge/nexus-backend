@@ -19,7 +19,7 @@ app.add_middleware(
 )
 
 
-models.Base.metadata.create_all(bind=database.engine) #Look at all the models, create if don't already exist
+models.Base.metadata.create_all(bind=database.engine) #Look at all the models.py, create if don't already exist
 
 def get_db():
     db = database.SessionLocal()

@@ -4,3 +4,5 @@ typing
 uvicorn
 sqlalchemy
 psycopg2-binary
+os
+python-dotenv
