@@ -1,0 +1,19 @@
+# from fastapi import FastAPI
+# from pydantic import BaseModel
+# from typing import Union
+
+
+# app = FastAPI()
+
+# class Item(BaseModel):
+#     name: str
+#     description: Union[str, None] = None
+#     price: float
+#     tax: Union[float, None] = None
+    
+
+# @app.post('/items/')
+# def create_item(item: Item):
+#     print(f'Recieved Item: {item.id}, Price: {item.price}')
+    
+#     return {'item_name: ', item.name, 'price-with_tax: ', item.price + (item.tax or 0)}
